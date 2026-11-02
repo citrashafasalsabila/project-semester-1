@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sole & co — Better steps start here</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav wrap" aria-label="Main navigation">
+            <a class="brand" href="#home">sole<span>&co</span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+                <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+                <span>Menu</span>
+            </button>
+            <div class="nav-links" id="primary-menu" hidden>
+                <a href="#koleksi">Collection</a>
+                <a href="#tentang">About</a>
+                <a href="#faq">FAQ</a>
+                <a href="#kontak">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home-page">
+        <div class="wrap">
+            <section class="hero" id="home">
+                <div class="hero-copy-panel">
+                    <p class="eyebrow">Find your perfect stride</p>
+                    <h1>Made for comfort. Easy to love.</h1>
+                    <p class="hero-copy">Shoes for every part of your day, thoughtfully selected for effortless style and lasting comfort.</p>
+                    <a class="button" href="#koleksi">Explore the collection</a>
+                </div>
+                
+            </section>
+
+            <section class="section" id="koleksi">
+                <div class="section-heading">
+                    <h2>Find your fit</h2>
+                    <p class="section-note">Thoughtful picks for different activities, styles, and comfort needs.</p>
+                </div>
+                <div class="cards">
+                    <a class="card category-card" href="#category-sneakers">
+                        <div class="category-visual">
+                            <img src="https://media.istockphoto.com/id/2125930366/id/vektor/desain-ilustrasi-vektor-logo-sepatu-kets.jpg?s=612x612&w=0&k=20&c=6wArt-IuasHqi-aTDYq2R3EKd0stTjAI9pPo3LNcglQ=" alt="Sneakers">
+                        </div>
+                        <span class="category-card-copy">
+                            <span><strong>Sneakers</strong><br><span class="category-description">Everyday comfort for wherever the day takes you.</span></span>
+                            <span class="category-arrow">→</span>
+                        </span>
+                    </a>
+                    <a class="card category-card" href="#category-running">
+                        <div class="category-visual">
+                            <img src="https://png.pngtree.com/png-vector/20240705/ourmid/pngtree-a-running-logo-vector-png-image_12963250.png" alt="Running">
+                        </div>
+                        <span class="category-card-copy">
+                            <span><strong>Running</strong><br><span class="category-description">Lightweight comfort to keep you moving.</span></span>
+                            <span class="category-arrow">→</span>
+                        </span>
+                    </a>
+                    <a class="card category-card" href="#category-outdoor">
+                        <div class="category-visual">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJwOzcQlROmfI3-1Szk-uX86to5y3i8NeVT-SUT_0v-Q&s=10" alt="Outdoor">
+                        </div>
+                        <span class="category-card-copy">
+                            <span><strong>Outdoor</strong><br><span class="category-description">Ready for your next trip or adventure.</span></span>
+                            <span class="category-arrow">→</span>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="section" id="tentang">
+                <div class="about">
+                    <div>
+                        <p class="eyebrow">About sole &amp; co</p>
+                        <h2>The right shoes make every step feel lighter.</h2>
+                        <p>We choose footwear with comfort, quality, and versatile design in mind.</p>
+                    </div>
+                    <div class="store-facts">
+                        <div class="fact"><strong>Jakarta</strong><span>Ciplaz Klender Mall</span></div>
+                        <div class="fact"><strong>Bekasi</strong><span>Mangunjaya Center</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="faq">
+                <div class="section-heading">
+                    <h2>Frequently asked questions</h2>
+                    <p class="section-note">A few quick answers before you find your next pair.</p>
+                </div>
+                <div class="faq">
+                    <details><summary>How do I place an order?</summary><p>Contact us to check product availability and learn how to place an order.</p></details>
+                    <details><summary>Can I exchange a product?</summary><p>Please contact the store to confirm the exchange policy before making a purchase.</p></details>
+                </div>
+            </section>
+
+            <section class="section" id="kontak">
+                <div class="contact">
+                    <h2>Join us or get in touch</h2>
+                    <p class="contact-intro">Complete the form to join our community or send us a question.</p>
+                    <form class="contact-form" method="post">
+                        <div class="form-field">
+                            <label for="nama">Full name</label>
+                            <input type="text" id="nama" name="nama" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="password">Create a password</label>
+                            <input type="password" id="password" name="password" placeholder="At least 6 characters" minlength="6" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="ukuran">Shoe size (EU)</label>
+                            <select id="ukuran" name="ukuran" required>
+                                <option value="">Select a size</option>
+                                <option value="39">39</option><option value="40">40</option><option value="41">41</option>
+                                <option value="42">42</option><option value="43">43</option><option value="44">44</option>
+                            </select>
+                        </div>
+                        <fieldset class="form-field form-field--choice">
+                            <legend class="field-label">Title</legend>
+                            <div class="form-options">
+                                <label><input type="radio" name="sapaan" value="Mr" required> Mr</label>
+                                <label><input type="radio" name="sapaan" value="Ms"> Ms</label>
+                                <label><input type="radio" name="sapaan" value="Prefer not to say"> Prefer not to say</label>
+                            </div>
+                        </fieldset>
+                        <div class="form-field">
+                            <label for="pesan">Message or question</label>
+                            <textarea id="pesan" name="pesan" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <label class="terms-label">
+                            <input type="checkbox" name="persetujuan" required> I agree to be contacted about my message.
+                        </label>
+                        <button class="button" type="submit">Submit form</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <main id="category-page" class="wrap category-page" hidden>
+        <a class="back-link" href="#koleksi">← Back to categories</a>
+        <div class="category-heading">
+            <p class="eyebrow">Explore the collection</p>
+            <h1 id="category-title"></h1>
+            <p id="category-description"></p>
+        </div>
+        <p class="sample-note">Sample products and illustrative prices.</p>
+        <div id="product-grid" class="product-grid"></div>
+    </main>
+
+    <script>
+        const categories = {
+            sneakers: {
+                title: "Sneakers",
+                description: "Versatile everyday pairs, made for comfort from your morning commute to late-night plans.",
+                products: [
+                    ["Everyday Court", "A clean, cushioned classic for daily wear.", "$89", "photo-1542291026-7eec264c27ff"],
+                    ["PUMA IS", "A lightweight favourite with a relaxed fit.", "$95", "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395022/13/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Park-Lifestyle"],
+                    ["Canvas Low", "An easy-to-style essential for laid-back days.", "$72", "photo-1525966222134-fcfa99b8ae77"]
+                ]
+            },
+            running: {
+                title: "Running",
+                description: "Comfort-first running shoes with responsive cushioning for your everyday miles.",
+                products: [
+                    ["910 Haze pro", "Responsive cushioning for your daily training.", "$110", "https://sportaways.com/storage/products/7542/sepatu-running-910-haze-pro-hitamabu-abu-r4es-1.webp"],
+                    ["ORTUSEIGHT X RANK SPORTS", "Breathable knit comfort for long-distance runs.", "$125", "https://store-assets.jubelio.com/webstore-v2/images/jstorev2/thzw4gbglakdx/1786638154607_a35ac1a9-b3db-40e4-9c6a-ec90e0c5aa1b.webp"],
+                    ["Harrier", "A supportive, lightweight partner for every run.", "$98", "https://www.eigeradventure.com/blog/wp-content/uploads/2025/05/running-shoes-1.jpg"]
+                ]
+            },
+            outdoor: {
+                title: "Outdoor",
+                description: "Dependable grip and all-day comfort for trails, weekend walks, and new adventures.",
+                products: [
+                    ["Trail Explorer", "Confident traction for changing trail conditions.", "$135", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-7lDKXlBTvmxDlV3Rncg9LN4LYfZ7nUKbcy2EICuziA&s=10"],
+                    ["Ridge Hiker", "Supportive cushioning for longer day hikes.", "$148", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh3vO0Luz-uRT-BjjF43fuM0a-18vNun6kA_0Uy5oMdg&s=10"],
+                    ["Pathfinder Mid", "Extra ankle support for rugged routes.", "$159", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrb0sz1CLaj08p8vLBUkHn8m8t934kIYXeM84Wx1C1lg&s=10"]
+                ]
+            }
+        };
+
+        const homePage = document.getElementById("home-page");
+        const categoryPage = document.getElementById("category-page");
+        const categoryTitle = document.getElementById("category-title");
+        const categoryDescription = document.getElementById("category-description");
+        const productGrid = document.getElementById("product-grid");
+
+        function renderRoute() {
+            const categoryKey = window.location.hash.match(/^#category-(sneakers|running|outdoor)$/)?.[1];
+            if (!categoryKey) {
+                homePage.hidden = false;
+                categoryPage.hidden = true;
+                const targetId = window.location.hash.slice(1);
+                if (targetId) requestAnimationFrame(() => document.getElementById(targetId)?.scrollIntoView());
+                return;
+            }
+
+            const category = categories[categoryKey];
+            categoryTitle.textContent = category.title;
+            categoryDescription.textContent = category.description;
+            productGrid.replaceChildren(...category.products.map(([name, description, price, image]) => {
+                const article = document.createElement("article");
+                article.className = "product-card";
+                const imgSrc = image.startsWith("https://") ? image : `https://images.unsplash.com/${image}?auto=format&fit=crop&w=900&q=80`;
+                article.innerHTML = `
+                    <div class="product-image">
+                        <img src="${imgSrc}" alt="${name} shoes" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>${name}</h3>
+                        <p>${description}</p>
+                        <span class="product-price">${price}</span>
+                    </div>`;
+                return article;
+            }));
+            homePage.hidden = true;
+            categoryPage.hidden = false;
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        window.addEventListener("hashchange", renderRoute);
+        const menuToggle = document.querySelector(".menu-toggle");
+        const primaryMenu = document.getElementById("primary-menu");
+
+        function closeMenu() {
+            menuToggle.setAttribute("aria-expanded", "false");
+            primaryMenu.hidden = true;
+        }
+
+        menuToggle.addEventListener("click", () => {
+            const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+            menuToggle.setAttribute("aria-expanded", String(!isExpanded));
+            primaryMenu.hidden = isExpanded;
+        });
+
+        primaryMenu.addEventListener("click", event => {
+            if (event.target.closest("a")) closeMenu();
+        });
+
+        document.addEventListener("click", event => {
+            if (!event.target.closest(".nav")) closeMenu();
+        });
+
+        document.addEventListener("keydown", event => {
+            if (event.key === "Escape") closeMenu();
+        });
+
+        document.querySelector(".back-link").addEventListener("click", e => {
+            e.preventDefault();
+            closeMenu();
+            window.location.hash = "koleksi";
+        });
+        renderRoute();
+    </script>
+
+<footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a class="brand" href="#home">sole<span>&co</span></a>
+                    <p class="footer-description">Shoes for every part of your day, thoughtfully selected for effortless style and lasting comfort.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Help & Information</h4>
+                    <ul>
+                        <li><a href="#faq">Frequently Asked Questions</a></li>
+                        <li><a href="#">Returns Guide</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect With Us</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter / X</a></li>
+                        <li><a href="#">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 sole & co. Better steps start here.</span>
+                <span>Secure & Trusted Payments</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
